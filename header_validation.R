@@ -1,7 +1,7 @@
 library(dplyr)
 library(RODBC)
 
-con <- odbcConnect(dsn="EBIDB_DEV", uid="ebiadm", "devadm")
+con <- odbcConnect(dsn="EBIDB_DEV", uid="ebiadm", "XXX")
 setwd("D:/SAP-C/DownStream/Master data and Transactional data/Open Hubs Demo")
 setwd("D:/SAP-C/DownStream/Master data and Transactional data/metadata")
 setwd("D:/SAP-C/DownStream/Master data and Transactional data/metadata for trans")
