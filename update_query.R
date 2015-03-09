@@ -1,7 +1,7 @@
 library(RODBC)
 library(data.table)
 
-con <- odbcConnect(dsn="EBIPOC", uid="ebietl", "Ctpwt757")
+con <- odbcConnect(dsn="EBIPOC", uid="ebietl", "XXXXXX")
 
 ## rs <- sqlQuery(con, model.id.query)
 
