@@ -1,7 +1,7 @@
 library(dplyr)
 library(RODBC)
 
-con <- odbcConnect(dsn="EBIDB_DEV", uid="ebiadm", "devadm")
+con <- odbcConnect(dsn="EBIDB_DEV", uid="ebiadm", "XXX")
 setwd("D:/SAP-C/DownStream/Master data and Transactional data/test data/")
 
 compareNA <- function(v1,v2) {
